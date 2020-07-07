@@ -1,0 +1,71 @@
+/* common class for all container */
+.container{
+    margin-bottom:50px;
+}
+/* carousel area */
+.carousel{
+    background: url(img/bg-1.png)no-repeat;
+    background-position: center center;
+    background-size:100px 400px;
+}
+.carousel_wraper{
+    background: url(img/bg-2.png)no-repeat;
+    background-position:bottom left;
+}
+.carousel-indicators li {
+    background-color: #ff8841;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+/* navigation bar  */
+.nav-link {
+    color: gray;
+}
+.nav-link:hvoer{
+    color:black;
+}
+/* smartphone and laptop area see all link */
+.see_all_link{
+    font-size:18px;
+    font-weight:600;
+    color:orangered;
+    text-decoration: none;
+}
+.see_all_link:hover{
+    text-decoration: none;
+    color:maroon;
+}
+/* common classes for all heading 3,4,and 5 */
+h3,h4,h5{
+    font-weight:700;
+}
+/* every single card of smartphone and laptop area */
+.card{
+    border:none;
+    box-shadow:5px 5px 10px lightgray;
+}
+/* categori area */
+.custom_categori_class{
+    margin-top:100px;
+    padding-bottom:10px;
+}
+.categori_border_class{
+    width:90px;
+    height:8px;
+    background-image: linear-gradient(45deg,yellow,orangered);
+    border-radius:10px;
+}
+.bag,.beauty,.shoe{
+    height:250px;
+    width:200px;
+}
+.bag{
+    border-radius:5px 20px 5px 20px;
+}
+.beauty,.shoe{
+    border-radius:20px 5px 20px 5px;
+}
+.shoe{
+    margin-top:60px;
+}
